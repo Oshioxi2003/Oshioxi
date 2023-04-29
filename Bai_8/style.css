@@ -1,0 +1,55 @@
+*{ 
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.518);
+    background: rgb(67 66 66);
+    font: menu;
+}
+body
+{
+    margin: 100px;
+}
+.container
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.row
+{
+    width: 24%;
+}
+
+.logo p
+{
+    background-color: rgb(7, 135, 209);
+    text-align: center;
+    padding: 15px;
+    width: 60%;
+    height: 50px;
+}
+.link ul
+{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.link ul li
+{
+    padding: 10px;
+}
+.a
+{
+    border-bottom: 1px dotted red;
+}
+.link ul li a
+{
+    text-decoration: none;
+    
+}
+
+img
+{
+    width: 10px;
+    height: 10px;
+    border-right: 1px dotted #b1154a ;
+}
+
+
